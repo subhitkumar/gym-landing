@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jordan fittnes</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        body {
+            font-family: 'Baloo Bhai 2', cursive;
+            margin: 0px;
+            padding: 0px;
+            background: url('img/gym-24699087.jpg');
+            height: 830px;
+
+        }
+
+        .left {
+            display: inline-block;
+            /* border: 2px solid red; */
+            position: absolute;
+            left: 33px;
+            top: 20px;
+        }
+
+        .mid {
+            display: block;
+            width: 37%;
+            margin: 29px auto;
+            /* border: 2px solid green; */
+            color: white;
+            background-color: black;
+            border-radius: 10px;
+        }
+
+        .right {
+            display: inline-block;
+            /* border: 2px solid yellow; */
+            position: absolute;
+            right: 33px;
+            top: 43px;
+            
+        }
+        .navbar{
+            display: inline-block;
+        }
+        .navbar li{
+            display: inline-block;
+            
+            font-size: 21px;
+            
+        }
+        .navbar li a{
+            padding: 34px 13px;
+            color: white;
+            text-decoration: none
+           
+             
+        }
+        .navbar li a.active,.navbar li a:hover {
+            text-decoration: underline;
+            color: grey;
+            
+        }
+        .left img{
+            width: 130px;
+        }
+        .left div{
+            text-align: center;
+            color:wheat
+        }
+        .btn{
+            font-family: 'Baloo Bhai 2', cursive;
+            margin: 0px 9px;
+            color: white;
+            background-color: black;
+            padding: 4px 14px;
+            border: 2px solid grey;
+            border-radius: 10px;
+            font-size: 15px;
+            cursor: pointer;
+        }
+        .btn:hover{
+            background-color: grey;
+        }
+        .left{
+            border: 2px solid grey;
+            border-radius: 10px;
+            color: white;
+            background-color: black;
+            
+        }
+        .container{
+            border: 2px solid white;
+            margin: 106px 80px;
+            padding: 75px;
+            width: 33%;
+            border-radius: 28px;
+            color: white;
+            background-color: black;
+        }
+        .form-group input{
+            text-align: center;
+            display: block;
+            width: 494px;
+            padding: 1px;
+            border: 2px solid black;
+            margin: 11px auto;
+            font-size: 21px;
+            border-radius: 15px;
+            font-family: 'Baloo Bhai 2', cursive;
+        }
+        .container h1{
+            text-align: center;
+        }
+        .container button{
+            display: block;
+            width: 74%;
+            margin: 20px auto;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="header">
+        <div class="left">
+           <img src="/img/gettyimages-612262390-612x612.jpg" alt="">
+            <div> Jordan Fitness</div>
+        </div>
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#" class="active">Home</a> </li>
+                <li><a href="#">About us</a> </li>
+                <li><a href="#">Fitness center</a> </li>
+                <li><a href="#"> Contact us</a></li>
+            </ul>
+        </div>
+        <div class="right">
+            <button class="btn">
+                Call us now
+            </button>
+            <button class="btn">
+                Email us
+            </button>
+        </div>
+    </header>
+    <div class="container">
+        <h1>
+            JOIN THE BEST GYM
+            <form action="noaction.php">
+                <div class="form-group">
+                    <input type="text"name="" placeholder="Enter your Name">
+                    <input type="text"name="" placeholder="Enter your Gender">
+                    <input type="email"name="" placeholder="Enter your Email">
+                    <input type="number"name="" placeholder="Enter your Phone no">
+                    <button class="btn">Submit</button>
+                </div>
+            </form>
+        </h1>
+    </div>
+</body>
+
+</html>
